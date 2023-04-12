@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "system-sam-sohel"
+  description: "system-sam-sohel"
+  annotations:
+    github.com/project-slug: sohemokashi/system-sam-sohel
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "guests"
+  system: "examples"
+
